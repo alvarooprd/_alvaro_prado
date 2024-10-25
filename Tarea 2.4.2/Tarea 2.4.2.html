@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <h1>Practica 2.4.2</h1>
+    <title>Álvaro Prado</title>
+    <style>
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input[type=radio]+label,
+        input[type=checkbox]+label {
+            display: inline;
+        }
+
+        input[type=submit] button[type=submit] button[type=reset] {
+            display: inline;
+            margin-right: 10px;
+            margin-top: 15px;
+            color: white;
+            border-radius: 10px;
+        }
+
+        input[type=submit],
+        button[type=submit] {
+            background-color: rgb(50, 50, 50);
+        }
+
+        button[type=reset] {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <from action="mailto:alvaro.prado2@educa.madrid.org" method="post"></from>
+    <fieldset>
+        <legend>Personaje</legend>
+        <label>Superheroe</label>
+        <input list="Superheroes" name="Superheroes">
+        <datalist id="Superheroes">
+            <option value="Deadpool"></option>
+            <option value="Iron man"></option>
+            <option value="Capitan america"></option>
+            <option value="Hulk"></option>
+        </datalist>
+        <label>color</label>
+        <input type="color" name="color">
+    </fieldset>
+    <fieldset>
+        <legend>Datos</legend>
+        <label for="name">Nombre</label>
+        <input type="text" name="Nombre">
+        <label for="Telefono">Telefono</label>
+        <input type="number" name="Telefono">
+        <label for="Fecha">Fecha</label>
+        <input type="date">
+        <label for="Contraseña">Contraseña</label>
+        <input type="password">
+    </fieldset>
+    <fieldset>
+        <legend>Selecciona forma de contacto</legend>
+
+        <div style="display: flex;gap: 8px;"></div>
+        <input type="radio" id="drone" name="Correo" value="Correo">
+        <label for="drone">correo</label>
+        <input type="radio" id="drone" name="Carta" value="Carta">
+        <label for="drone">Carta</label>
+        <input type="radio" id="drone" name="Contacto" value="Contacto">
+        <label for="drone">Contacto</label>
+    </fieldset>
+    <fieldset>
+        <legend>Asignatura favorita</legend>
+        <div style="display: flex;gap: 8px;"></div>
+        <input type="checkbox" id="asignaturas" name="AplicacionesWeb" value="AplicacionesWeb" />
+        <label for="AplicacionesWeb"> Aplicaciones Web</label>
+        </div>
+        <div style="display: flex;gap: 8px;">
+            <input type="checkbox" id="asignaturas" name="SeguridadInformatica" value="SeguridadInformatica" />
+            <label for="asignaturas">Seguridad Informatica</label>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Hora</legend>
+        <input type="time" id="Hora" name="Hora" value="Hora" />
+    </fieldset>
+    <fieldset>
+        <legend>Mes</legend>
+        <input type="month" id="mes" name="mes" value="mes" />
+    </fieldset>
+    <fieldset>
+        <legend>Email</legend>
+        <input type="email" id="email" name="email" value="email">
+    </fieldset>
+    <fieldset>
+        <legend>Semana</legend>
+        <input type="week" id="Semana" name="Semana" value="Semana" />
+    </fieldset>
+    <fieldset>
+        <legend>Dia, Fecha, Hora</legend>
+        <input type="datetime-local">
+    </fieldset>
+    <input type="submit">
+    </form>
+</body>
+
+</html>
+
+</fieldset>
+
+</body>
+
+
+</style>
+
+</html>

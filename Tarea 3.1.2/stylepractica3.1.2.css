@@ -1,0 +1,55 @@
+td {
+    border-style: inset;
+}
+
+body article p {
+    color: green;
+}
+caption{
+    color: azure;
+    background-color: rgb(95, 0, 139);
+    border-radius: 50px;
+    padding: 15px;
+}
+th{
+    padding: 10px;
+    border-radius: 5px;
+    background-color:lightskyblue
+    
+}
+td {
+    padding: 10px;
+    text-align: center;
+}
+.recreo{
+    background-color: rgb(241, 212, 130)
+}
+td.recreo:hover{
+    background-color: rgb(255, 190, 25);
+}
+td:nth-child(1){
+    background-color: rgb(58, 119, 189);
+    border-radius: 15px;
+}
+th:nth-child(1){
+    background-color: rgb(255, 255, 255);
+    color: white;
+}
+.seginf:hover {
+    background-color: pink
+}
+.servred:hover {
+    background: sandybrown;
+}
+.ingles:hover {
+    background-color: palegreen
+}
+.empresa:hover {
+    background-color: paleturquoise;
+}
+.sor:hover {
+    background-color: palegoldenrod;
+}
+.apweb:hover {
+    background-color: palevioletred;
+}

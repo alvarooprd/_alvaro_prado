@@ -4,49 +4,7 @@
     <head>
         <title>Practica 3.1.2</title>
         <h1>Practica 3.1.2</h1>
-        <style>
-        td {
-            border-style: inset;
-        }
-
-        body article p {
-            color: green;
-        }
-        caption{
-            color: azure;
-            background-color: rgb(95, 0, 139);
-            border-radius: 50px;
-            padding: 15px;
-        }
-        th{
-            padding: 10px;
-            border-radius: 5px;
-            background-color:lightskyblue
-            
-        }
-        td {
-            padding: 10px;
-            text-align: center;
-        }
-        .recreo{
-            background-color: rgb(241, 212, 130)
-        }
-        td.recreo:hover{
-            background-color: rgb(255, 190, 25);
-        }
-        td:nth-child(1){
-            background-color: rgb(58, 119, 189);
-            border-radius: 15px;
-        }
-        th:nth-child(1){
-            background-color: rgb(255, 255, 255);
-            color: white;
-        }
-        
-
-
-
-        </style>
+    <link rel="stylesheet" href="stylepractica3.1.2.css">
     </head>
 
     <body>
@@ -64,26 +22,26 @@
 
             <tr>
                 <td>8:30</td>
-                <td rowspan="2"> Seg inf</td>
-                <td rowspan="2"> Serv. red </td>
-                <td rowspan="2"> Serv. red </td>
-                <td> Ingles </td>
-                <td> Seg inf </td>
+                <td rowspan="2" class="seginf"> Seg inf</td>
+                <td rowspan="2" class="servred"> Serv. red </td>
+                <td rowspan="2" class="servred"> Serv. red </td>
+                <td class="ingles"> Ingles </td>
+                <td class="seginf"> Seg inf </td>
             </tr>
 
             <tr>
                 <td>9:25</td>
-                <td> Seg Inf </td>
-                <td> Empresa </td>
+                <td class="seginf"> Seg Inf </td>
+                <td class="empresa"> Empresa </td>
             </tr>
 
             <tr>
                 <td>10:20</td>
-                <td> Empresa </td>
-                <td> SOR </td>
-                <td> Inglés </td>
-                <td> Serv. Red </td>
-                <td> SOR </td>
+                <td class="empresa"> Empresa </td>
+                <td class="sor"> SOR </td>
+                <td class="ingles"> Inglés </td>
+                <td class="servred"> Serv. Red </td>
+                <td class="sor"> SOR </td>
             </tr>
             <tr>
                 <td>11:15</td>
@@ -94,23 +52,23 @@
             </tr>
             <tr>
                 <td>11:40</td>
-                <td> SOR </td>
-                <td> SOR </td>
-                <td> Empresa </td>
-                <td rowspan="2"> Ap Web </td>
-                <td> SOR </td>
+                <td class="sor"> SOR </td>
+                <td class="sor"> SOR </td>
+                <td class="empresa"> Empresa </td>
+                <td rowspan="2" class="apweb"> Ap Web </td>
+                <td class="sor"> SOR </td>
             </tr>
             <tr>
                 <td>12:35</td>
-                <td> Ap web </td>
-                <td rowspan="2"> Ap Web </td>
-                <td rowspan="2"> SOR </td>
-                <td rowspan="2"> Serv. red </td>
+                <td class="apweb"> Ap web </td>
+                <td rowspan="2" class="apweb"> Ap Web </td>
+                <td rowspan="2" class="sor"> SOR </td>
+                <td rowspan="2" class="servred"> Serv. red </td>
             </tr>
             <tr>
                 <td>13:30</td>
-                <td> Serv red </td>
-                <td> SOR </td>
+                <td class="servred"> Serv red </td>
+                <td class="sor"> SOR </td>
             </tr>
         </table>
         <ol>

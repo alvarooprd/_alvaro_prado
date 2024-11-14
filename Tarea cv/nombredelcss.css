@@ -1,0 +1,78 @@
+body {
+    font-size: 16;
+    margin: 0;
+}
+
+header img {
+
+    border-radius: 100px;
+}
+header h1{
+    text-shadow: 2px 3px 0px rgb(0, 0, 0);
+    font-family: Montserrat;
+
+
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding: 2%;
+    background: rgb(210, 83, 245);
+    background: radial-gradient(circle, rgb(6, 166, 230) 0%, rgb(158, 0, 231) 100%);
+    font-size: 20px;
+}
+nav {
+    justify-content: space-between;
+    background-color: #94bbe9;
+    display: flex;
+    grid-area: nav;
+}
+
+section {
+    padding-left: 15px;
+}
+
+section:not(:last-child) {
+    border-bottom: 1px solid grey;
+}
+
+.knowledge {
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+footer {
+    background-color: #94bbe9;
+    min-height: 100px;
+    text-align: end;
+    padding: 20px 15px;
+}
+
+#skills ul>li:before {
+    content: "►";
+    padding-right: 0.5em;
+    color: #1467b4;
+}
+
+#skills .languages ul>li:before {
+    content: '';
+    padding-right: 0em;
+}
+
+#skills ul {
+    list-style: none;
+}
+
+h3 {
+    color: rgb(20, 4, 80);
+}
+
+h4 {
+    color: rgb(17, 147, 199);
+}
+.contenedor{
+    
+}

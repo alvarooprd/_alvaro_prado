@@ -1,0 +1,120 @@
+body {
+    font-size: 16;
+    margin: 0;
+}
+
+header img {
+
+    border-radius: 100px;
+}
+
+header h1 {
+    text-shadow: 2px 3px 0px rgb(0, 0, 0);
+    font-family: Arial;
+
+
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding: 2%;
+    background: rgb(210, 83, 245);
+    background: radial-gradient(circle, rgb(0, 53, 167) 0%, rgb(126, 198, 231) 100%);
+    font-size: 20px;
+}
+
+
+section {
+    padding-left: 15px
+}
+
+section:not(:last-child) {
+    border-bottom: 2px solid grey;
+}
+
+nav {
+    justify-content: space-between;
+    background-color: #94bbe9;
+    display: flex;
+    grid-area: nav;
+    
+}
+nav ul{
+    list-style: none;
+}
+
+nav ul li a{
+    color: #0156b8;
+    text-decoration: none;
+    padding: 15px 25px;
+    border: black;
+    display: block;
+    transition: color 0.3s;
+    background-color:#a2c9f7
+    
+}
+
+nav ul li a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(75, 137, 219);
+}
+
+.knowledge {
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+footer {
+    background-color: #94bbe9;
+    min-height: 100px;
+    text-align: end;
+    padding: 20px 15px;
+}
+
+#skills ul>li:before {
+    content: "►";
+    padding-right: 0.5em;
+    color: #1467b4;
+}
+
+#skills .languages ul>li:before {
+    content: '';
+    padding-right: 0em;
+}
+
+#skills ul {
+    list-style: none;
+}
+
+h3 {
+    color: rgb(21, 19, 153);
+}
+
+h4 {
+    color: rgb(0, 155, 216);
+}
+
+.caja {
+    background-color: rgb(226, 41, 41);
+    margin: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    width: 150px;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #79afdb00;
+    flex-direction: row;
+    padding: 15px;
+    gap: 10px;
+    border-radius: 5px;
+    width: 80%;
+    margin: 0 auto
+}

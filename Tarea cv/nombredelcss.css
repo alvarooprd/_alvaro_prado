@@ -19,7 +19,7 @@ header {
     text-align: center;
     padding: 2%;
     background: rgb(210, 83, 245);
-    background: radial-gradient(circle, rgb(6, 166, 230) 0%, rgb(158, 0, 231) 100%);
+    background: radial-gradient(circle, rgb(0, 53, 167) 0%, rgb(126, 198, 231) 100%);
     font-size: 20px;
 }
 nav {
@@ -72,7 +72,4 @@ h3 {
 
 h4 {
     color: rgb(17, 147, 199);
-}
-.contenedor{
-    
 }
